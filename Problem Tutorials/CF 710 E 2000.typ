@@ -1,21 +1,21 @@
 #set page(paper: "us-letter", margin: 1.5cm)
-#set text(size: 13pt)
+#set text(size: 11pt)
 #set heading(numbering: "1.")
 
 #show raw.where(block: true): it => block(
   fill: rgb("#f6f8fa"),
   stroke: 0.5pt + rgb("#d0d7de"),
   radius: 4pt,
-  inset: 11pt,
+  inset: 9pt,
   width: 100%,
   it,
 )
-#show raw: set text(font: "Cascadia Code", size: 11pt)
+#show raw: set text(font: "Cascadia Code", size: 9pt)
 
 #align(center)[
-  #text(size: 19pt, weight: "bold")[CF 710E — Generate a String]
+  #text(size: 17pt, weight: "bold")[CF 710E — Generate a String]
 
-  #text(size: 13pt, style: "italic")[Rating: 2000]
+  #text(size: 11pt, style: "italic")[Rating: 2000]
 ]
 
 = Statement
