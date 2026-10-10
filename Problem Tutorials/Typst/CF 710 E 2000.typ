@@ -4,7 +4,7 @@
 
 #show raw.where(block: true): it => block(
   fill: rgb("#f6f8fa"),
-  stroke: 0.5pt + rgb("#d0d7de"),
+  stroke: 0.5pt + rgb("#a1afc9"),
   radius: 4pt,
   inset: 9pt,
   width: 100%,
