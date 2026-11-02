@@ -8,6 +8,7 @@
   radius: 4pt,
   inset: 9pt,
   width: 100%,
+  breakable: false,
   it,
 )
 #show raw: set text(font: "Cascadia Code", size: 9pt)
